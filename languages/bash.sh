@@ -373,6 +373,16 @@ wait                # waits until all background jobs have finished
 
 
 ##############################################################################
+# LINUX SIGNALS
+##############################################################################
+SIGHUP        # Hangup.                   Value: 1
+SIGINT        # Interrupt from keyboard.  Value: 2
+SIGKILL       # Kill signal.              Value: 9
+SIGTERM       # Termination signal.       Value: 15
+SIGSTOP       # Stop the process.         Value: 17,19,23
+
+
+##############################################################################
 # TIPS & TRICKS
 ##############################################################################
 
